@@ -3,9 +3,9 @@
 /**
  * main - entry point
  *
- * Description: program that prints the alphabet in lowercase.
+ * Description: print all alphabet letters
  *
- * Return: 0 (Success)
+ * Return: Always  0 (Success)
 */
 
 int main(void)
@@ -17,5 +17,6 @@ int main(void)
 		ch++;
 	}
 	putchar('\n');
+
 	return (0);
 }
